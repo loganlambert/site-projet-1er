@@ -1,0 +1,1240 @@
+@font-face {
+	font-family: "perpetua";
+	src: url("font/perpetua.ttf");
+}
+
+body {
+	display: block;
+	height:125vh;
+	font-family: "perpetua", sans-serif, Arial;
+	background-image: url(img/hollow2.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	margin: 0;
+}
+
+nav {
+	display: flex;
+	top: 0;
+	z-index: 100;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	width: 100%;
+	padding: 5px;
+	background-color: rgba(0, 0, 0, 0.8);
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+nav ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding-right: 50px;
+	text-align: center;
+}
+
+nav ul li a {
+	font-size: 1.5em;
+	margin: 10px;
+	padding:10px;
+	color: white;
+	text-decoration: none;
+	transition: 0.75s;
+}
+
+nav ul li a:hover {
+	color: red;
+	transition: 0.75s;
+}
+
+nav #txt {
+	align-items: center;
+	padding-left: 275px;
+}
+
+nav #txt a {
+	font-size: 5em;
+	color: white;
+	text-align: center;
+}
+
+nav #header img {
+	width: 70px;
+}
+
+ul {
+	padding: 0px;
+	list-style-type: none;
+}
+
+#top-text h1 {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	font-size: 7em;
+	color: rgb(255, 255, 255);
+	padding-top: 250px;
+	margin: 0;
+}
+
+#bottom-text {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+#bottom-text p {
+	color: white;
+	font-size: 1.5em;
+	margin: 100px;
+	width: 800px;
+}
+
+#index figure {
+	display: flex;
+	justify-content: space-around;
+	margin: 200px 0;
+	align-items: center;
+	height:300px;
+}
+
+#index figure h2 {
+	font-size: 3em;
+	color: #fff;
+	padding-left: 40px;
+}
+
+#index figure img {
+	border-radius: 30%;
+	width: 400px;
+	height: auto;
+}
+
+#index figcaption {
+	text-align: center;
+	font-size: 1.5em;
+	color: #ffffff;
+	transition:1s;
+}
+
+#index p {
+	text-align: center;
+	width:900px;
+	color:rgb(255, 255, 255);
+	border-radius:20px;
+}
+
+#index figcaption:hover {
+	transform: scale(1.05);
+	transition:1s;
+}
+
+#titre h1 {
+	display: flex;
+	justify-content: center;
+	font-size: 5em;
+	color: white;
+	margin: 0;
+	padding-top: 150px;
+}
+
+.Charms figure {
+	display: inline-block;
+	text-align: center;
+	margin: 20px;
+}
+
+.Charms figure img {
+	width: 150px;
+	height: auto;
+}
+
+.Charms figure figcaption {
+	margin-top: 50px;
+	font-size: 1.5em;
+	color: #fff;
+	max-width: 350px;
+	text-align: center;
+}
+
+.Charms-bottom {
+	display: flex;
+	justify-content: space-around;
+	margin: 150px 50px 150px 50px;
+}
+
+.Charms-bottom figure {
+	display: inline-block;
+	text-align: center;
+	margin: 20px;
+}
+
+.Charms-bottom figure img {
+	width: 150px;
+	height: auto;
+}
+
+.Charms-bottom figcaption {
+	margin-top: 50px;
+	font-size: 1.5em;
+	color: #fff;
+	max-width: 350px;
+	text-align: center;
+}
+
+.Charms h2, .Charms-bottom h2 {
+	margin: 25px;
+	color: #fff;
+}
+
+#Charms-top {
+	display: flex;
+	justify-content: space-around;
+	margin: 50px;
+}
+
+#Charms-top figure {
+	border:10px solid rgb(0, 0, 0);
+	background-color:black;
+	box-shadow: 0 10px 15px rgba(1, 1, 1, 1);
+	border-radius:30px;
+	transition:0.5s;
+}
+
+.Charms-bottom figure {
+	border:10px solid rgb(0, 0, 0);
+	box-shadow: 0 10px 15px rgba(1, 1, 1, 1);
+	background-color:black;
+	border-radius:30px;
+	transition:0.5s;
+}
+
+#Charms-top img, #Charm-bottom img {
+	width: 150px;
+	height: auto;
+	border-radius: 30px;
+}
+
+#Charms-top figure:hover {
+	border:7px solid white;
+	transform: scale(1.1);
+	transition:1s;
+}
+
+.Charms-bottom figure:hover {
+	transform: scale(1.1);
+	transition:1s;
+	border:7px solid white;
+}
+
+#index2 figure, #index2 figure3 {
+	display: flex;
+	justify-content: space-around;
+	margin: 200px 0;
+	align-items: center;
+}
+
+#index2 figure2, #index2 figure4 {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row-reverse;
+	margin: 200px 0 200px 0;
+	align-items: center;
+}
+
+#index2 figure img, #index2 figure2 img, #index2 figure3 img, #index2 figure4 img {
+	border-radius: 70px;
+	width: 700px;
+	height: auto;
+}
+
+#index2 figcaption {
+	text-align: center;
+	font-size: 1.5em;
+	color: #fff;
+}
+
+#index2 figcaption p {
+	text-align: center;
+	width: 900px;
+}
+
+.Bonus-page {
+	overflow: hidden;
+}
+
+#bonus h1 {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-size: 7.8em;
+	color: #fff;
+}
+
+#bonus p {
+	text-align: center;
+	font-size: 1.8em;
+	color: #fff;
+	padding-left: 300px;
+	padding-right: 300px;
+}
+
+#bonus a {
+	display: flex;
+	justify-content: space-around;
+	text-decoration: none;
+	font-size: 1.25em;
+	color: #fff;
+	padding-top: 125px;
+}
+
+#bonus a:hover {
+	color: red;
+	transition-duration: 0.75s;
+}
+
+#petitcurieux {
+	margin: 215px;
+	text-align: center;
+	color: blue;
+}
+
+.text-container {
+	font-size: 1.5em;
+	color: white;
+}
+
+.container {
+	position: absolute;
+	top: 58%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	max-width: 800px;
+	width: 90%;
+	margin: 0px auto;
+	padding: 20px;
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 10px;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+	z-index: 10;
+	backdrop-filter: blur(10px)
+}
+
+.container h1 {
+	text-align: center;
+	color: white;
+	margin-bottom: 20px;
+}
+
+.contact {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+
+.elements-infos {
+	text-align: center;
+	flex: 1;
+	margin: 0;
+}
+
+.elements-infos h3 {
+	font-size: 1.5em;
+	color: black;
+	margin-bottom: 10px;
+}
+
+.elements-infos p {
+	font-size: 1.5em;
+	color: white;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+label {
+	display: block;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+input,
+textarea,
+button {
+	width: 97%;
+	padding: 10px;
+	font-size: 1em;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+textarea {
+	resize: none;
+	height: 100px;
+}
+
+button {
+	width: 99.8%;
+	background-color: white;
+	color: black;
+	border: none;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+button:hover {
+	background-color: red;
+}
+
+@media screen and (max-width: 1440px) {
+
+	body {
+		background-size: cover;
+		background-position: center;
+	}
+
+	nav {
+		padding: 10px 20px;
+	}
+
+	nav #txt {
+		padding-left: 70px;
+	}
+
+	nav #txt a {
+		font-size: 4.5em;
+	}
+
+	nav ul li a {
+		font-size: 1.5em;
+		margin: 10px;
+	}
+
+	#top-text p {
+		font-size: 8em;
+		padding-top: 200px;
+	}
+
+	#bottom-text p {
+		font-size: 1.5em;
+		margin: 50px;
+	}
+
+	#titre h1 {
+		font-size: 4em;
+		padding-top: 120px;
+	}
+
+	#index figure {
+		display: flex;
+		justify-content: space-around;
+		margin: 200px 0;
+		align-items: center;
+	}
+
+	#index figure h1 {
+		font-size: 2.5em;
+		color: #fff;
+		padding-left: 40px;
+	}
+
+	#index figure img {
+		border-radius: 30%;
+		width: 300px;
+		height: auto;
+	}
+
+	#index figcaption {
+		text-align: center;
+		font-size: 1.5em;
+		color: #fff;
+	}
+
+	#index figcaption p {
+		text-align: center;
+		width: 800px;
+		font-size: 1em;
+	}
+
+	#index2 figure,
+	#index2 figure3 {
+		display: flex;
+		justify-content: space-around;
+		margin: 200px 0;
+		align-items: center;
+	}
+
+	#index2 figure2,
+	#index2 figure4 {
+		display: flex;
+		justify-content: space-around;
+		flex-direction: row-reverse;
+		margin: 200px 0 200px 0;
+		align-items: center;
+	}
+
+	#index2 figure img,
+	#index2 figure2 img,
+	#index2 figure3 img,
+	#index2 figure4 img {
+		border-radius: 70px;
+		width: 500px;
+		height: auto;
+	}
+
+	#index2 figcaption {
+		text-align: center;
+		font-size: 1.5em;
+		color: #fff;
+	}
+
+	#index2 figcaption p {
+		text-align: center;
+		width: 900px;
+	}
+
+	.Charms figure img,
+	.Charms-bottom figure img {
+		width: 150px;
+	}
+
+	.Charms figure figcaption,
+	.Charms-bottom figcaption {
+		font-size: 1.2em;
+	}
+
+	#bonus h1 {
+		font-size: 6.25em;
+	}
+
+	#bonus p {
+		font-size: 2em;
+		padding: 15px;
+		margin: 0;
+	}
+
+	#bonus a {
+		padding-top: 40px;
+	}
+
+	.container {
+		max-width: 1000px;
+		padding: 15px;
+		top: 68%;
+	}
+
+	.container h1 {
+		font-size: 2em;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+
+	.Galerievh {
+		overflow-x: hidden;
+		background-position: center;
+	}
+
+	nav {
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		padding: 1px;
+	}
+
+	nav #txt {
+		padding-left: 1px;
+	}
+
+	nav #txt a {
+		font-size: 3.1em;
+	}
+
+	nav ul {
+		flex-direction: row;
+		padding: 0;
+	}
+
+	nav ul li a {
+		font-size: 1.3em;
+		margin: 5px;
+	}
+
+	#top-text h1 {
+		font-size: 5em;
+		padding-top: 250px;
+	}
+
+	#bottom-text p {
+		font-size: 1.3em;
+		margin: 20px;
+		padding-top: 50px;
+	}
+
+	#bonus h1 {
+		font-size: 3.7em;
+	}
+
+	#bonus p {
+		font-size: 1em;
+		padding: 10px;
+	}
+
+	#index {
+		display: flex;
+		flex-direction: column;
+	}
+
+	#index figure {
+		flex-direction: column;
+		margin: 150px 75px 150px 75px;
+		display: flex;
+		align-items: center;
+	}
+
+	#index figure img {
+		width: 250px;
+	}
+
+	#index figure h2 {
+		font-size: 2em;
+		padding: 0;
+
+	}
+
+	.Charms figure img {
+		width: 80px;
+	}
+
+	.Charms figure figcaption,
+	.Charms-bottom figcaption {
+		font-size: 1em;
+	}
+
+	#Charms-top {
+		margin: 50px;
+	}
+
+	#bonus p {
+		font-size: 1.5em;
+	}
+
+	#index2 figure {
+		display: flex;
+		justify-content: space-evenly;
+	}
+
+	#index2 figure img,
+	#index2 figure2 img,
+	#index2 figure3 img,
+	#index2 figure4 img {
+		width: 400px;
+	}
+
+	#index2 figcaption {
+		font-size: 1.2em;
+	}
+
+	#index2 figcaption p {
+		width: 600px;
+	}
+
+	#titre {
+		font-size: 1em;
+		text-align: center;
+	}
+
+	.container {
+		top: 65%;
+		padding: 10px;
+	}
+
+	.text-container {
+		font-size: 1em;
+	}
+
+}
+
+@media screen and (max-width: 768px) {
+
+	body {
+		background-position: center;
+	}
+
+	nav {
+		position: absolute;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		padding: 1px 0;
+	}
+
+	nav ul li {
+		margin: 5px;
+	}
+
+	nav ul {
+		margin: 10px 0 10px 0;
+	}
+
+	nav #header img {
+		width: 55px;
+	}
+
+	#top-text h1 {
+		font-size: 4em;
+		padding-top: 350px;
+	}
+
+	#bottom-text p {
+		font-size: 1.2em;
+		margin: 20px;
+	}
+
+	#index figure {
+		flex-direction: column;
+		padding-left: 0px;
+		padding-top:150px;
+	}
+
+	#index figure p {
+		width: 500px;
+	}
+
+	#index figure h1 {
+		padding-left: 1px;
+	}
+
+	.Charms figure figcaption,
+	.Charms-bottom figcaption {
+		font-size: 1em;
+	}
+
+	.text-container {
+		font-size: 1em;
+	}
+
+	#titre {
+		padding-top: 225px;
+		font-size: 0.7em;
+	}
+
+	#Charms-top {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+
+	#Charms-top h2 {
+		width: 125px;
+		font-size: 2em;
+		padding-left: 87px;
+	}
+
+	#Charms-top {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 50px 50px 50px 50px;
+	}
+
+	#Charms-top img {
+		width: 150px;
+	}
+
+	#Charms-top figure {
+		margin: 50px;
+	}
+
+	.Charms-bottom figure {
+		margin: 50px;
+	}
+
+	.Charms-bottom {
+		flex-wrap: wrap;
+	}
+
+	.Charms-bottom h2 {
+		width: 125px;
+		font-size: 2em;
+		padding-left: 88px;
+	}
+
+	.Charms-bottom {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.Charms-top img {
+		width: 125px;
+	}
+
+	.container {
+		top: 63%;
+	}
+
+	.container h1 {
+		margin: 0;
+	}
+
+	.elements-infos {
+		height: 35px;
+		margin: 25px 0 25px 0;
+	}
+
+	.elements-infos p {
+		margin: 0 16px 16px 16px;
+		font-size: 1.2em;
+	}
+
+	.elements-infos h3 {
+		margin: 9px 0 10px 0;
+	}
+
+	#index2 {
+		padding-top: 150px;
+	}
+
+	#index2 figure img,
+	#index2 figure2 img,
+	#index2 figure3 img,
+	#index2 figure4 img {
+		width: 350px;
+	}
+
+	#index2 figcaption {
+		font-size: 1em;
+	}
+
+	#index2 figcaption p {
+		width: 350px;
+	}
+
+	#bonus h1 {
+		font-size: 3.7em;
+	}
+
+	#bonus #petitcurieux {
+		font-size: 1.2em;
+		margin: 100px 100px 300px 100px;
+	}
+}
+
+@media screen and (max-width: 425px) {
+
+	body {
+		background-position: center;
+		font-size: 0.9em;
+	}
+
+	nav {
+		flex-direction: column;
+		align-items: center;
+		padding: 0px;
+	}
+
+	nav ul {
+		flex-direction: column;
+		padding: 0;
+		margin: 5px 0;
+	}
+
+	nav ul li a {
+		font-size: 1.2em;
+		margin: 5px 0;
+	}
+
+	nav #txt a {
+		font-size: 2.1em;
+	}
+
+	#top-text p {
+		font-size: 2.5em;
+		padding-top: 300px;
+	}
+
+	#bottom-text p {
+		font-size: 1em;
+		margin: 10px;
+	}
+
+	#index {
+		display: flex;
+		flex-direction: column;
+	}
+
+	#index figure {
+		flex-direction: column;
+		margin: 50px 10px;
+		padding-top:150px;
+		align-items: center;
+	}
+
+	#index figure img {
+		width: 150px;
+	}
+
+	#index figure h1 {
+		font-size: 1.5em;
+		text-align: center;
+	}
+
+	#index figcaption {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		align-items: center;
+	}
+
+	#index figcaption p {
+		text-align: center;
+		width: 80%;
+		font-size: 0.8em;
+	}
+
+	.Charms figure img,
+	.Charms-bottom figure img {
+		width: 70px;
+	}
+
+	.Charms figure figcaption,
+	.Charms-bottom figure figcaption {
+		font-size: 1em;
+		max-width: 200px;
+	}
+
+	#Charms-top figure h2 {
+		padding-left: 1px;
+		font-size: 2em;
+	}
+
+	#Charms-top figure {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	#Charms-top {
+		margin: 50px 0 50px 0;
+	}
+
+	.Charms-bottom {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin: 50px 0 50px 0;
+	}
+
+	.Charms-bottom figure {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.Charms-bottom figure figcaption {
+		font-size: 1em;
+	}
+
+	.Charms-bottom figure img {
+		width: 125px;
+	}
+
+	.Charms-bottom figure h2 {
+		padding: 1px;
+		font-size: 2em;
+	}
+
+	#titre h1 {
+		font-size: 2.8em;
+		text-align: center;
+		padding-top: 150px;
+	}
+
+	#bonus h1 {
+		font-size: 1.5em;
+		text-align: center;
+		padding: 30px;
+	}
+
+	#bonus p {
+		font-size: 1em;
+		padding: 10px;
+		margin: 20px;
+	}
+
+	#bonus #petitcurieux {
+		margin: 20px;
+		font-size: 0.9em;
+	}
+
+	#index2 figure img,
+	#index2 figure2 img,
+	#index2 figure3 img,
+	#index2 figure4 img {
+		width: 250px;
+	}
+
+	#index2 figure,
+	#index2 figure2,
+	#index2 figure3,
+	#index2 figure4 {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		margin: 150px 0 100px 0;
+	}
+
+	#index2 figcaption {
+		display: flex;
+		justify-content: space-around;
+		font-size: 0.8em;
+	}
+
+	#index2 figcaption p {
+		width: 90%;
+		font-size: 1.2em;
+	}
+
+	#bonus a {
+		padding-top: 9.3em;
+	}
+
+	#bonus h1 {
+		font-size: 2em;
+	}
+
+	#bonus p {
+		font-size: 1.5em;
+	}
+
+	.container {
+		top: 68%;
+		max-width: 95%;
+		padding: 10px;
+	}
+
+	form input,
+	form textarea,
+	form button {
+		font-size: 0.7em;
+		padding: 5px;
+	}
+
+	button {
+		width: 100%;
+		font-size: 0.7em;
+	}
+}
+
+@media screen and (max-width: 320px) {
+
+	body {
+		background-position: center;
+	}
+
+	nav {
+		flex-direction: column;
+		align-items: center;
+		padding: 0px;
+	}
+
+	nav ul {
+		flex-direction: column;
+		padding: 0;
+		margin: 5px 0;
+	}
+
+	nav ul li a {
+		font-size: 1.2em;
+		margin: 5px 0;
+	}
+
+	nav #txt a {
+		font-size: 2.4em;
+	}
+
+	#top-text p {
+		font-size: 2.5em;
+		padding-top: 300px;
+	}
+
+	#bottom-text p {
+		font-size: 1.2em;
+		margin: 10px;
+	}
+
+	#index figure {
+		display: flex;
+		flex-direction: column;
+		margin: 50px 10px;
+		align-items: center;
+	}
+
+	#index figure img {
+		width: 150px;
+	}
+
+	#index figure h1 {
+		font-size: 2em;
+		text-align: center;
+	}
+
+	#index figcaption p {
+		text-align: center;
+		width: 90%;
+		font-size: 0.8em;
+	}
+
+	#index figcaption {
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+	}
+
+	.container {
+		top: 65%;
+		max-width: 100%;
+		padding: 10px;
+	}
+
+	#name,
+	#email,
+	#message {
+		padding: 5px;
+	}
+
+	.Charms figure img,
+	.Charms-bottom figure img {
+		width: 70px;
+	}
+
+	.Charms figure figcaption,
+	.Charms-bottom figure figcaption {
+		font-size: 1em;
+		max-width: 200px;
+	}
+
+	#Charms-top figure h2 {
+		padding-left: 1px;
+	}
+
+	#Charms-top figure {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	#Charms-top {
+		margin: 50px 0 50px 0;
+	}
+
+	.text-container {
+		font-size: 0.9em;
+		padding: 1px;
+	}
+
+	.Charms-bottom {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.Charms-bottom figure figcaption {
+		font-size: 1em;
+	}
+
+	.Charms-bottom figure img {
+		width: 125px;
+	}
+
+	.Charms-bottom figure h2 {
+		padding: 1px;
+	}
+
+	#titre h1 {
+		font-size: 2.5em;
+		text-align: center;
+	}
+
+	#bonus h1 {
+		font-size: 1.5em;
+		text-align: center;
+		padding: 50px;
+	}
+
+	#bonus p {
+		font-size: 1em;
+		padding: 1px;
+		margin: 50px;
+	}
+
+	#bonus #petitcurieux {
+		margin: 30px;
+	}
+
+	#petitcurieux p {
+		width: 150px;
+		font-size: 1em;
+	}
+
+	#petitcurieux a {
+		margin: 150px 50px 0 50px;
+	}
+
+	#index2 figure img,
+	#index2 figure2 img,
+	#index2 figure3 img,
+	#index2 figure4 img {
+		width: 250px;
+	}
+
+	#index2 figure,
+	#index2 figure2,
+	#index2 figure3,
+	#index2 figure4 {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		margin: 150px 0 100px 0;
+	}
+
+	#index2 figcaption {
+		display: flex;
+		justify-content: space-around;
+		font-size: 0.8em;
+	}
+
+	#index2 figcaption p {
+		width: 90%;
+		font-size: 1.2em;
+	}
+
+	.container h1 {
+		font-size: 1.5em;
+	}
+
+	.container {
+		top: 67%;
+	}
+
+	form input,
+	form textarea,
+	form button {
+		font-size: 0.8em;
+		padding: 5px;
+	}
+
+	button {
+		width: 100%;
+		font-size: 0.8em;
+	}
+}
